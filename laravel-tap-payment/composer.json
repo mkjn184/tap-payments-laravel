@@ -1,0 +1,41 @@
+{
+    "name": "tap-payments-laravel/laravel-tap-payment",
+    "description": "Tap Payment REST API package for Laravel.",
+    "type": "package",
+    "license": "MIT",
+    "keywords": [
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "majjour",
+            "email": "majjour.92@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tap-payments-laravel\\LaravelTapPayment\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tap-payments-laravel\\LaravelTapPayment\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tap-payments-laravel\\LaravelTapPayment\\LaravelTapPaymentServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0"
+    }
+}
