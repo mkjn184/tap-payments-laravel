@@ -1,5 +1,5 @@
 {
-    "name": "tap-payments-laravel/laravel-tap-payment",
+    "name": "mkjn184/laravel-tap-payment",
     "description": "Tap Payment REST API package for Laravel.",
     "type": "package",
     "license": "MIT",
@@ -12,6 +12,7 @@
             "email": "majjour.92@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "illuminate/support": "^7.0"
     },
